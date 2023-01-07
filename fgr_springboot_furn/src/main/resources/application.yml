@@ -1,0 +1,13 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: fgr
+    url: jdbc:mysql://127.0.0.1:3306/springboot_vue?useSSL=true&useUnicode=true&characterEncoding=UTF-8
+
+mybatis-plus:
+  configuration:
+    # 配置输出底层的sql，方便观察sql
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
